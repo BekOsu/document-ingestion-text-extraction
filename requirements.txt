@@ -1,0 +1,7 @@
+requests>=2.31.0
+pdfminer.six>=20221105
+pytesseract>=0.3.10
+python-dotenv>=1.0.0
+beautifulsoup4>=4.12.0
+Pillow>=10.0.0
+pdf2image>=1.16.0
