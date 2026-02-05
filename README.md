@@ -24,6 +24,7 @@ A Python pipeline for ingesting documents from various sources and extracting te
 ## Requirements
 
 - Python 3.11+
+- Node.js 18+ (for frontend)
 - Tesseract OCR (for scanned PDFs and images)
 - Poppler (for PDF to image conversion)
 
@@ -152,6 +153,21 @@ Results are saved to `data/processed/` with fields:
 
 A Next.js frontend for interactive document processing.
 
+### Tech Stack
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS
+
+### Features
+
+- Drag and drop file upload
+- Multiple file batch processing
+- URL-based extraction
+- Real-time extraction results
+- Download results as JSON or CSV
+
 ### Setup
 
 ```bash
@@ -165,6 +181,7 @@ Start both the API server and frontend:
 
 ```bash
 # Terminal 1: API server
+source .venv/bin/activate
 uvicorn api.main:app --reload
 
 # Terminal 2: Frontend
