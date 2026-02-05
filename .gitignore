@@ -12,4 +12,5 @@ dist/
 build/
 !data/raw/.gitkeep
 !data/processed/.gitkeep
-!logs/.gitkeep
+!logs/.gitkeepfrontend/node_modules/
+frontend/.next/
